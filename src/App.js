@@ -8,7 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <h3>My Family Tree</h3>
-        <FamilyTree members={members} />
+        <select>
+          <FamilyTree members={members} />
+        </select>
       </div>
     );
   }

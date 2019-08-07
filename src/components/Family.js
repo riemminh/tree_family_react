@@ -22,7 +22,12 @@ export default [
                   {
                     name: "n_child1",
                     children: [
-                      { name: "n_child2", children: [{ name: "n_child_3" }] }
+                      {
+                        name: "n_child2",
+                        children: [
+                          { name: "n_child_3", children: [{ name: "child_4" }] }
+                        ]
+                      }
                     ]
                   }
                 ]
@@ -55,7 +60,8 @@ export default [
         name: "tich",
         children: [
           {
-            name: "con tich"
+            name: "con tich",
+            children: [{ name: "chau tich" }]
           }
         ]
       },
