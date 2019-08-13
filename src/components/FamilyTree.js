@@ -15,7 +15,7 @@ export default class FamilyTree extends Component {
   render() {
     const level = this.props.level || 0;
     return (
-      <Fragment level={level}>
+      <Fragment>
         {this.props.members.map((member, i) => {
           return (
             <Fragment key={i}>

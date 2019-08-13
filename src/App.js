@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-
 import FamilyTree from "./components/FamilyTree";
 import members from "./components/Family";
+import MultipleCheckbox from "./components/MultipleCheckbox";
 
 class App extends Component {
   render() {
@@ -11,6 +11,12 @@ class App extends Component {
         <select>
           <FamilyTree members={members} />
         </select>
+        {/* test */}
+
+        {/* multiple checkbox */}
+        <hr />
+        <MultipleCheckbox />
+        <hr />
       </div>
     );
   }
