@@ -25,7 +25,6 @@ class Checkbox extends Component {
     }
   }
   handleCheckChieldElement = e => {
-    const { isChecked, data } = this.props;
     const value = e.target.value;
     const checkedClick = e.target.checked;
     this.setState({

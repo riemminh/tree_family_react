@@ -65,7 +65,6 @@ class MultipleCheckbox extends Component {
                 key={fruite.id}
                 isChecked={this.state.isChecked}
                 {...fruite}
-                data={this.state.data}
                 handleData={this.handleData}
                 handleChildData={this.handleChildData}
               />
